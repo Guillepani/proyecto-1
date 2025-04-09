@@ -303,6 +303,14 @@ body {
     gap: 10px;
   }
 
+  .hero {
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
   .hero-text h1 {
     font-size: 3rem;
   }
@@ -311,19 +319,54 @@ body {
     font-size: 1.2rem;
   }
 
-  .texto {
-    font-size: 14px;
-    padding: 10px;
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
   }
 
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+  .logo {
+    height: 30px;
+    margin: 0;
+  }
+
+  .nav-options {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
   }
 
   .slider-buttons a {
     font-size: 16px;
     padding: 4px 8px;
+  }
+
+  .historia-ktm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #0000005e;
+    margin-top: 20px;
+  }
+
+  .historia-ktm img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .texto {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
   }
 }

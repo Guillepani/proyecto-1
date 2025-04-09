@@ -305,10 +305,14 @@ body {
 
   .hero {
     height: 60vh;
+    background-image: url('assets/images/Arena%20890%20ADV%20Cabecera.jpg');
     background-position: center center;
     background-size: cover;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-text h1 {
@@ -320,10 +324,10 @@ body {
   }
 
   .navbar {
-    flex-direction: row;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 10px 20px;
   }
 
@@ -333,10 +337,11 @@ body {
   }
 
   .nav-options {
-    flex-grow: 1;
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .slider-buttons a {
@@ -348,9 +353,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
     padding: 20px 10px;
     background-color: #0000005e;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .historia-ktm img {
